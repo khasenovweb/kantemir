@@ -1,0 +1,27 @@
+header#_new_header .header_city{display:flex;flex:.9;flex-flow:row wrap;padding:0 15px}header#_new_header .header_city .city{text-align:left;padding:0 15px}header#_new_header .header_city .city a{padding:0;text-align:left;display:block;color:#000}header#_new_header .header_city .city span{color:#828282}
+@media(max-width:771px){
+    header#_new_header .content {
+	margin-top:0;padding-top:0;margin-left:0;margin-right:0;width:100%;background-color:white;overflow:hidden;
+	}
+        header#_new_header .content .logo{order:3;display:none}header#_new_header .content .header_city{order:2;margin:5px -15px;box-sizing:border-box}
+	header#_new_header .content .header_elements{
+	    order:1;
+	    background-color:#ffffff;
+	    border-top: solid 1px #0000002E;
+	    width:100%;
+	    margin-top:0;
+	    justify-content:space-between;
+	    padding:15px;
+	    box-sizing:border-box;
+	    flex-flow:row wrap
+	}
+	header#_new_header .content .header_elements .header_button{order:2}header#_new_header .content .header_elements .header_button .send{color:white}header#_new_header .content .header_elements .header_contact{order:1;display:block}header#_new_header .content .header_elements .header_contact .hmail{display:none}
+	header#_new_header .content .header_elements .header_contact .hphone a{color:#000000;}
+	header#_new_header .content .header_elements .header_contact .hphone a span{color:white}header#_new_header .content .header_elements .header_contact .hphone a:before{display:none}}@media(max-width:771px) and (max-width:390px){header#_new_header .content .header_elements{justify-content:inherit}}nav .content .logo{display:none}@media(max-width:771px){nav{background:#fff}nav .content{justify-content:space-between}nav .content .logo{display:block !important;margin-right:auto;margin-left:0;background-size:auto 50px;width:250px;}nav .content .header_form{display:none}nav .content .mobile-contacts-min-widht{display:none}}@media(max-width:771px){.bootstrap .promo-banner-main{padding-left:0 !important;padding-right:0 !important}}
+
+
+@media (max-width: 771px) {
+	header#_new_header .content .header_city{
+		margin: -2px -15px 0px -15px;
+		}
+}
