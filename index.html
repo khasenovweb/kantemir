@@ -20132,8 +20132,97 @@
         <script></script>
 
         <style>
+            :root {
+              --new-color: #656565;
+            }
             .mobile_contact a.mobile_logo {
                 background-image: url(images/logo-4.svg);
+            }
+            nav {
+              background: var(--new-color);
+            }
+            @media (max-width: 771px) {
+              nav {
+                  background: #fff;
+              }
+            }
+            .green-btn {
+              background-color:  var(--new-color) !important;
+              color: white !important;
+            }
+            .green-btn:hover {
+                background-color:  var(--new-color) !important;
+                color: #fff !important;
+                /*border: 2px #656565 solid;*/
+                border: none;
+            }
+            .send:hover, a.send:hover {
+              background-color:  var(--new-color);
+              color: white;
+            }
+            .tab {
+              border: 1px solid  var(--new-color);
+            }
+            .tab.active {
+              background-color:  var(--new-color);
+              color: white;
+            }
+            .nav-arrow {
+              background-color:  var(--new-color);
+              border: 1px solid  var(--new-color);
+            }
+            .swiper-pagination-bullet {
+              border: 1px solid  var(--new-color);
+              background:  var(--new-color);
+            }
+            .swiper-pagination-bullet-active {
+              background-color: #fff;
+            }
+            #three_block .reviews_buttons a.active, #new_reviews_block .reviews_buttons a.active {
+              background-color:  var(--new-color);
+              border: 0;
+              color: white;
+            }
+            #three_block .reviews_buttons a, #new_reviews_block .reviews_buttons a {
+              border: 1px solid var(--new-color);
+            }
+            #gallery_content .slick-dots li, #reviews_content .slick-dots li {
+              background-color: var(--new-color);
+            }
+            #gallery_content .slick-dots li button, #reviews_content .slick-dots li button {
+              color: white; 
+            }
+            #gallery_content .slick-dots li.slick-active, #reviews_content .slick-dots li.slick-active button{
+              color: var(--new-color);
+            }
+            #first_block form button:hover {
+              background: var(--new-color);
+              color: white;
+            }
+            footer#_new_footer .first_row {
+              background: var(--new-color);
+            }
+            footer#_new_footer .first_row .footer_button .send, footer#_new_footer .first_row .footer_button a.send, footer#_new_footer .first_row .footer_button .spoiler_b_name {
+              border: 2px solid #ffffff;
+            }
+            footer#_new_footer .second_row .adress ._map a {
+              color: var(--new-color);
+            }
+            .page_contact_left, .after_menu {
+              background: var(--new-color);
+            }
+            @media only screen and (max-width: 991px) {
+              a.menu_row_a {
+                  padding: 5px 10px;
+                  line-height: 20px;
+                  color: #ffffff;
+              }
+            }
+            @media (max-width: 768px) {
+              #gallery_content .slick-dots li.slick-active, #reviews_content .slick-dots li.slick-active {
+                  background-color: #dfcfb7;
+                  border: 0;
+              }
             }
         </style>
     </body>
